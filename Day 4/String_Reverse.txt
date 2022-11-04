@@ -1,0 +1,20 @@
+In this program i have taken a string as an input in a variable A, and then taken a another variable B & stored the converted
+lower case string of variable A in it. Then taken a empty variable rev which store the reversed string using charAt function.
+After that runs a loop which is from length of the input string - 1 till 0,
+And checked whether the string which has been reversed is equals to the input string or not.
+If it is equal to it then, the string is palindrome otherwise it is not palindrome.
+
+
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
+
+Given a string A, print Yes if it is a palindrome, print No otherwise.
+
+Constraints
+
+A will consist at most 50 lower case english letters.
+Sample Input
+
+madam
+Sample Output
+
+Yes

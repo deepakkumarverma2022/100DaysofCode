@@ -1,0 +1,28 @@
+In this program I have taken string s as an input and then stored splitted tokens around the regular expression 
+using split & trim function in a array of string b.
+And then checked if (s.trim().isEmpty()) then print "0"
+Otherwise print the length of the array.
+And in the last runs a for each loop & stored the elements of array b in a variable a after that printed it.
+
+
+Sample Input
+
+He is a very very good boy, isn't he?
+Sample Output
+
+10
+He
+is
+a
+very
+very
+good
+boy
+isn
+t
+he
+
+Explanation
+
+We consider a token to be a contiguous segment of alphabetic characters.
+There are a total of 10 such tokens in string s, and each token is printed in the same order in which it appears in string s.

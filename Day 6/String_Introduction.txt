@@ -1,0 +1,17 @@
+In this program given a two input string A & B.
+We have to sum the length of string A & B for the first line.
+For the second line I just compare the string A & B, using compareTo function to check 
+whether the string A is lexicographically/alphabetically greater than string B or not.
+If it is greater then print "Yes", "No" otherwise.
+Then in the last for the third line, we have to capitalize first letter of both the string & print them separated by spaces.
+
+
+Sample Input:
+
+hello
+java
+Sample Output:
+
+9
+No
+Hello Java

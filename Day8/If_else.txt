@@ -1,0 +1,14 @@
+In this program I have simply dealt with the concept of If else.
+
+That is taken a user input as integer & if number is even & lies in the range of 2 to 5 & also number is greater than 20.
+Then print Not Weird.
+Otherwise if number is even & lies in the range of 6 to 20 & also it is odd number.
+Then print Weird.
+
+Explanation
+
+Sample Case 0: n = 3
+n is odd and odd numbers are weird, so we print Weird.
+
+Sample Case 1: n = 24
+n > 20 and n is even, so it isn't weird. Thus, we print Not Weird.

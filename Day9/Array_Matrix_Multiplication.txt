@@ -1,0 +1,11 @@
+This is a program of matrix multiplication, In this program using Scanner class taken input from the user for the dimension of the two array.
+That is rows & cols for the first matrix & ROWS & COLS for the second matrix.
+Then, runs two for loop for rows & cols to take input of the element of array1 from the user, and similarly for the array2 which is named m1[][] & m2[][].
+Now created another array3 named result[][] in which we are going to store element after multiplication of two matrix.
+So, again runs a loop for i & j & then empty array3 to get store the element after multiplying each rows & column of first & second matrix i.e. result[i][j] = 0;
+And then runs one more loop using variable as k so that it should be multiplied in that manner that first row of first matrix should be multiplied with the first
+column of second matrix and then again first row of first matrix multiplied with the second column of second matrix.
+And so on. 
+With the code of result[i][j] += m1[i][k] * m2[k][j];
+And then end of for loop & again in the else block of if(cols == ROWS) i.e. for the first if condition will print "Matrix cannot be multiplied", if column of first
+matrix is not equal to the ROWS of second one.

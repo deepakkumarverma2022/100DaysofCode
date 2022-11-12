@@ -6,7 +6,7 @@ Your classes should not be be public.
 Input Format
 
 You are not responsible for reading any input from stdin;
-a locked code stub will test your submission by calling the add method on an Adder object and passing it  integer parameters.
+a locked code stub will test your submission by calling the add method on an Adder object and passing it 2 integer parameters.
 
 Output Format
 

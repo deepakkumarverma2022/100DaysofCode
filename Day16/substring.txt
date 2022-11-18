@@ -1,0 +1,24 @@
+In this program I have taken a String s as input suppose "welcometojava" & k as a integer input for the length of substring from the taken string as input.
+And now created a getSmallestAndLargest() function in which I have passed String s, int k.
+A string,s, and an integer,k, complete the function so that it finds the lexicographically smallest and largest substrings of length k
+
+Input Format
+
+The first line contains a string denoting s.
+The second line contains an integer denoting k..
+
+Sample Input 0
+
+welcometojava
+3
+Sample Output 0
+
+ava
+wel
+Explanation 0
+
+String s = "welcometojava" has the following lexicographically-ordered substrings of length k = 3:
+["ava", "com", "elc", "eto", "jav", "lco", "met", "oja",
+We then return the first (lexicographically smallest) substring and the last (lexicographically largest) substring as two newline-separated values (i.e., ava\nwel).
+
+The stub code in the editor then prints ava as our first line of output and wel as our second line of output.

@@ -1,0 +1,30 @@
+It is a simple program of reversing a given input as array using arraylist datastructure.
+
+Example :
+
+A = [1,2,3]
+Return [3,2,1].
+
+Complete the function reverseArray.
+
+reverseArray has the following parameter(s):
+
+int A[n]: the array to reverse
+Returns
+
+int[n]: the reversed array
+Input Format
+
+The first line contains an integer,N, the number of integers in A.
+The second line contains N space-separated integers that make up A.
+
+Sample Input 1
+
+CopyDownload
+Array: arr
+
+4
+1 4 3 2
+Sample Output 1
+
+2 3 4 1

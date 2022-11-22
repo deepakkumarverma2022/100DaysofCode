@@ -1,0 +1,9 @@
+In this program simply performed selection sort on a given array as input.
+In the first line of input taken from the user is the size of the array.
+Now in the second line of input taken the element in an array from the user and then sort it.
+Runs two loop for j & k, first loop taken variable as j runs for n-1 times & the second loop k runs for n times starting from k = j as it,
+check the minimum element after the element in an array which has been sorted.
+And we have taken minimum element as j in the beginning.
+After that runs a if condition in which compares that if a[k] < a[minInd] then k being the new minimum element in that i th iteration.
+After closing if condition & k for loop, swap the element of an array accordingly.
+And then runs for each loop for printing the sorted element of an array.

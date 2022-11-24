@@ -1,0 +1,15 @@
+In this program simply performed Insertion Sort by taking input from the user.
+i.e. size of the array & number of element in an array, by using Scanner Class.
+
+Now, normally two loop will run one (for loop) for sorted array and another (while loop) for unsorted array.
+so this is the mechanism on which insertion sort work, as the first element in the beginning is always sorted for the first iteration.
+
+So the first loop will run from index 1 till n-1, this is what the unsorted sublist in the array as the first element in an array is always sorted so, 
+We have left that element for comparing on the basis of what we will do swapping.
+And now element at index 1 we will be storing it in temp variable, and then decrementing the value of "j" by 1 & storing it in variable "k", which we have taken variable 
+for running (for loop), so that after this when we will run (while loop) for sorted sublist which is one index before from where the unsorted sublist starts.
+So that we can compare it from the previous(sorted) element of the array & sort it at it's appropriate place.
+
+So, here we will be running one while loop(k >= 0 && a[k] > temp), which is checking first k >= 0, and second thing first element in the sorted sublist from right
+is greater than the value storede in temp variable, if it is so swap the element & it will compare/check till "k" becomes 0, and like this it works & you get element
+sorted in an array by using this algorithm.

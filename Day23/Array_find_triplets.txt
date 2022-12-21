@@ -1,0 +1,15 @@
+In this program our task is to find triplets in a given array whose sums is zero.
+so, simply taken t as a input for number of test cases, then n for the size of an array which we have declared by taking int a[] = new int[].
+Now taken input for the element in an array using a[i] = sc.nextInt();
+After that we had made a Solution class g, using that conditioned if(g.findTriplets(a,n)), where a is the name of an array.
+If found print "1" else print "0".
+
+Then opened Solution class inside that findTriplets function in which we have passed another array arr[] with int n as the size of the array.
+In this function on the first line we have simply sorted the array using Arrays.sort() function after that runs a for loop i from 0 to n-2 as in the last there will be
+another two element in an array using which we have to sum it from the element at the i^th position, so this for loop will run from 0 to n-2.
+Now check in if condition that we have created twoSum function which return boolean either true or false, in which passed the array in which we have to iterate, and an
+element to find after the sum of two element and starting element of an array.
+
+And then checked while condition (i < j), j is initialized with a.length-1; and then start checking if condition if(a[i] + a[j] < x) do i++
+else if(a[i] + a[j] > x) then do j-- else sum of two element is being found for that return true else return false, when we are passing inside if condition where we are
+finding sum of three element whose sum is zero, at the place where we have passed variable x, we will replace it wit -a[i].

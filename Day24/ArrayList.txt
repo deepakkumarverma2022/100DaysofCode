@@ -1,0 +1,39 @@
+It is a progream of arraylist saying you to find out the queries taken from system.in. 
+According to that query if it has been found in the y^th position of x^th line then print that number else generate a ERROR! message.
+
+You are given n lines. In each line there are zero or more integers.
+You need to answer a few queries where you need to tell the number located in y^th position of x^th line.
+Take your input from System.in.
+
+Input Format
+The first line has an integer n. In each of the next n lines there will be an integer d denoting number of integers on that line and then there will be d space-separated
+integers. In the next line there will be an integer q denoting number of queries. Each query will consist of two integers x and y.
+
+Output Format
+In each line, output the number located in y^th position of x^th line. If there is no such position, just print "ERROR!"
+
+Explanation
+
+Diagram given below explain the queries.
+
+         1    2    3    4    5
+line 1  41   77   74   22   44
+
+line 2  12   
+
+line 3  37   34   36   52
+
+line 4
+
+line 5  20   22   33
+
+Queries Entered
+1,3
+3,4
+3,1
+4,3
+5,5
+
+Now see first entered queries is 1,3 i.e of first line third column number found in the ArrayList is 74, similarly of 3,4 i.e. of third line fourth column,
+number found in the ArrayList is 52, same in 3,1 we found 37, now of 4,3 we found no element then display ERROR! message, similarly in the case of 5,5 also we found no 
+element here also we will display the same ERROR! message.

@@ -1,3 +1,28 @@
-dbaslvjvcsalv dklsv dklvaskvbadnwnd
-sckscsvcsjl cm ascj
-Svclsvczsvcusav mv ljv
+In this problem, you have to add and multiply huge numbers! These numbers are so big that you can't contain them in any ordinary data types like a long integer.
+
+Use the power of Java's BigInteger class and solve this problem.
+
+Input Format:
+There will be two lines containing two numbers,a and b.
+
+Output Format:
+Output two lines. The first line should contain a + b, and the second line should contain a * b. Don't print any leading zeros.
+
+Sample Input
+
+1234
+20
+Sample Output
+
+1254
+24680
+
+Explanation:
+1234 + 20 = 1254
+1234 * 20 = 24680
+
+In this program we have simply taken two BigInteger number as input in BigInteger data types 
+as the number taken as input would be so huge that it can't be stored in normal datatypes 
+like long, int & after that used a.add(b) & a.multiply(b) function taken vr variable name to store the sum of the two huge number,
+and vc variable name to store multiplication of two huge number.
+After that using System.out.println to print the sum & multiplication of that number in two different lines.

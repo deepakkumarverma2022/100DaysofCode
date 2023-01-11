@@ -1,0 +1,38 @@
+Given an unsorted array A of size N that contains only non-negative integers, 
+find a continuous sub-array which adds to a given number S and return the left and right index(1-based indexing) of that subarray.
+
+In case of multiple subarrays, return the subarray indexes which comes first on moving from left to right.
+
+Note:- Both the indexes in the array should be according to 1-based indexing. You have to return an arraylist consisting of two elements left and right. 
+In case no such subarray exists return an array consisting of element -1.
+
+Example 1:
+
+Input:
+N = 5, S = 12
+A[] = {1,2,3,7,5}
+Output: 2 4
+Explanation: The sum of elements 
+from 2nd position to 4th position 
+is 12.
+ 
+
+Example 2:
+
+Input:
+N = 10, S = 15
+A[] = {1,2,3,4,5,6,7,8,9,10}
+Output: 1 5
+Explanation: The sum of elements 
+from 1st position to 5th position
+is 15.
+
+Explanation :
+Simply initialized sum variable with 0 & took start & end variable & to them also initialized with 0, after that we have to return the arraylist for the 
+starting & ending subarray position whose sum is equal to the s (number taken as an input for subarraySum), so we made a Integer type arraylist. 
+And then started a for loop from i = 0 till less than n & started adding sum of the array in sum variable & in the next line updated end value by i that is end = i;
+Then runs a while loop in which we are checking for the conditions while(sum > s), if it is then start minusing starting array element from the sum by using 
+sum -= arr[start]; & incrementing start value by 1 each time while loop gets execute i.e. till sum value is greater than s, after that closing while loop 
+And then checks for the condition if(sum == s) then break; that is when sum of the subarray is equal to the desired number i.e. s, then loop will not execute further, 
+end of the statement closing if statement, closing for loop & now checking for a condition when sum is not equal to s or start > end then we will return -1,
+else will return the arraylist of position left & right of subarray whose sum is equal to the desired number i.e. s.

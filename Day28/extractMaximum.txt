@@ -1,0 +1,32 @@
+In this question you will be given a alphanumeric string S, from which you have to extract maximum numeric value from S.
+
+Example 1:
+
+Input:
+S = 100klh564abc365bg
+Output: 564
+Explanation: Maximum numeric value 
+among 100, 564 and 365 is 564.
+
+Example 2:
+
+Input:
+S = abcdefg
+Output: -1
+Explanation: Return -1 if no numeric 
+value is present. 
+
+In this program we simply have to complete extractMaximum() function which takes the string S as input parameters and returns the maximum numeric value.
+I have simply stored the length of the string S in n.
+Initialized num variable with 0 & maxNum = Integer.MIN_VALUE; (which mean store a very minimum value).
+Then initially initialized flag, boolean type variable with false.
+Then runs a for loop from 0 to less than n, and checks character by character whether the string taken as an input contains any digits from 0 to 9 or not ?
+if it contains then, by using num = num * 10 + (S.charAt(i) - '0'); we are extracting the largest possible digits from the string.
+And if a single digit is also present in the string & once the if condition gets true value of flag will always be true, it will be false only in one condition,
+when no digits are found in the string.
+And in the else block we are finding maximum of maxNum & num using Math.max() function, i.e. when if condition gets false till that time the largest digits gets stored
+in the num variable and now finding maximum of (maxNum, num) will give maxNum value, and then we empty num value again by changing it to 0.
+So that the next time if condition gets true for the same string for other index should again store another possible largest or smallest value till the for loop
+condition gets failed.
+Then checks value of flag is false or true, if it is false it means no digits found in the string as if condition did't gets true even for once then it will return -1,
+otherwise it will return maxNum.

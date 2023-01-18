@@ -1,0 +1,28 @@
+In this question you are  given an array A of size N of integers. Your task is to find the minimum and maximum elements in the array.
+
+ 
+
+Example 1:
+
+Input:
+N = 6
+A[] = {3, 2, 1, 56, 10000, 167}
+Output:
+min = 1, max =  10000
+ 
+
+Example 2:
+
+Input:
+N = 5
+A[]  = {1, 345, 234, 21, 56789}
+Output:
+min = 1, max = 56789
+
+Explanation :
+Array a[] & it's length n given in this question is of long (datatypes) type so, I have taken two variable min & max that is also of long type.
+and initialize it using Integer.MAX_VALUE in min & Integer.MIN_VALUE in max variable as in case of max & min opposite of it's meaning initial value is being initialized.
+Then sorted the array using Arrays.sort() function & runs a for loop inorder to iterate through the array & by using Math.min() function compared min value & i^th index 
+of the whole array i.e. a[i], & similarly in case of maximum also used max variable & by using Math.max() function compared first initial value of max with a[i], & then
+each time maximum of both the number is being stored in max variable & same in case of minimum also.
+Like this it happens till the loops condition gets failed, & after that what so ever the value of min & max is being stored at the last, return that value i.e. min & max. 

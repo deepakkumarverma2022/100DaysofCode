@@ -1,0 +1,31 @@
+In this program You are given an array arr[] and an integer K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. 
+It is given that all array elements are distinct.
+Example 1:
+Input:
+N = 6
+arr[] = 7 10 4 3 20 15
+K = 3
+Output : 7
+Explanation :
+3rd smallest element in the given 
+array is 7.
+Example 2:
+Input:
+N = 5
+arr[] = 7 10 4 20 15
+K = 4
+Output : 15
+Explanation :
+4th smallest element in the given 
+array is 15.
+Your Task:
+You don't have to read input or print anything. 
+Your task is to complete the function kthSmallest() which takes the array arr[], integers l and r denoting the starting and ending index of the array
+and an integer K as input and returns the Kth smallest element.
+
+Explanation :
+In this program simply taken a variable n in which i have stored the length of an array using arr.length;
+For simplifying the question just sorted the given array using Arrays.sort() method, which sort the array in O(n) time complexity.
+After that initialize a variable w = 0; then runs a for loop from l to r, where l is the starting index & r is the ending index.
+And checked if condition i.e. if i^th position is equal to the value of k-1 as we array starts from 0^th index.
+if this condition is true store the value at i^th index of that array in variable w. And then after the termination of for loop return w.

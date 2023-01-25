@@ -1,0 +1,20 @@
+In this question you are given an unsorted array arr[] of size N having both negative and positive integers. 
+The task is place all negative element at the end of array without changing the order of positive element and negative element.
+
+Sample Input : 
+N = 8
+arr[] = {1, -1, 3, 2, -7, -5, 11, 6 }
+Sample Output : 
+1  3  2  11  6  -1  -7  -5
+
+Your task is to complete the function segregateElements() which takes the array arr[] and its size N as inputs and store the answer in the array arr[] itself.
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)
+
+Explanation :
+In this question I have simply taken two arrayList i.e. numbers & num, first arrayList is for storing positive numbers & that of second is for storing negative
+numbers than runs a for loop from 0 to n-1; and checked for a if condition i.e. if (arr[i] > 0) means positive number than stored that number in first arrayList
+using add() function, similarly in the else block.
+Then after the for loop gets executed using addAll() function added num arrayList to numbers & then using get() function fetch all the i^th position of number arrayList
+and stored it in the same array i.e. arr[].

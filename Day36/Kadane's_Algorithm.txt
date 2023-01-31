@@ -1,0 +1,35 @@
+In this program you are given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum.
+Example 1:
+Input:
+N = 5
+Arr[] = {1,2,3,-2,5}
+Output:
+9
+Explanation:
+Max subarray sum is 9
+of elements (1, 2, 3, -2, 5) which 
+is a contiguous subarray.
+Example 2:
+Input:
+N = 4
+Arr[] = {-1,-2,-3,-4}
+Output:
+-1
+Explanation:
+Max subarray sum is -1 
+of element (-1)
+Your Task:
+You don't need to read input or print anything. 
+The task is to complete the function maxSubarraySum() which takes Arr[] and N as input parameters and returns the sum of subarray with maximum sum.
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+
+Explanation :
+In this program you have to complete the given function maxSubarraySum() which takes an array & n being it's length.
+Then we have created two variable curSum which we have initialized by 0 & maxSum which have been initialized by Integer.MIN_VALUE(This is the smallest possible value 
+which we use to store, MIN_VALUE for maximum & MAX_VALUE for minimum).
+After that runs a for loop from 0 to less than n & stores the sum in curSum variable & check for a if condition i.e. if curSum is greater than maxSum, 
+let the new maxSum is equal to curSum & again check one more if condition i.e. if curSum is less than 0 then, curSum = 0;
+it means when the sum of the array being negative it's not going to give maximum subarray sum so again iterate in the for loop to get the positive sum,
+then returns maxSum of the iterable curSum.

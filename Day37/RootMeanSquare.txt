@@ -1,0 +1,23 @@
+In this question you have to find the RootMeanSquare of the number taken as an input in an array,
+where a is the name of the array & n is the number of element in an array.
+
+Sample Input :
+
+N = 5
+67
+45
+67
+89
+43
+
+Sample Output :
+
+64.45618742724588
+
+Explanation :
+First of all N is the size of the array taken then runs a for loop till less than n for taking number as an input in an array.
+As we are taking number as an input along with that only squaring that number using Math.pow() function in which we are passing a[i], 2 which we are storing,
+it in a double data type then after that sum = sum + square of every number & storing all the sum in the sum variable which we have initialized by 0 globally.
+Then closing of for loop. Again calculated mean by dividing whole sum by n;
+In the last calculated SquareRoot of that mean value using Math.sqrt() function in which we are passing mean value, and then printed SquareRoot of all the number
+taken as an input in an array. 

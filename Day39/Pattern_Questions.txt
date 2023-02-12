@@ -1,0 +1,24 @@
+In today's github post there are some of the pattern questions.
+According to me if you are not able to build logic at problem solving in java, patterns are the easiest way to enhance,
+& build your skill.
+
+Here are some of the pattern questions:
+
+Sample input :
+N = 5  (For all the patterns).
+
+Sample output :
+
+1) * * * * *        2)            *        3)         1                     4) *                5) *     
+     * * * *                    * *                 2   3                      * *                 * *
+       * * *                  * * *               4   5   6                    * * *               *   *
+         * *                * * * *            7    8    9   10                * * * *             *     *      
+           *              * * * * *          11   12   13   14   15            * * * * *           * * * * *                    
+                                                                               * * * * 
+                                                                               * * *        
+                                                                               * *
+                                                                               *
+This and all are the questions & i think it's quite easy we all can do this type of problem but at the other hand it's the master concept to build 
+logic behind the problem solving.
+I have tried to code these patterns as easy as possible so that anybody see it should all get the concept & logic behind the questions needed to solve it.
+Just use the concept of nested for loops.

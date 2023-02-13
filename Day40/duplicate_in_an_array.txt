@@ -1,0 +1,20 @@
+In this questions you are given an array a[] of size N which contains elements from 0 to N-1,
+you need to find all the elements occurring more than once in the given array.
+
+Your Task:
+Complete the function duplicates() which takes array a[] and n as input as parameters and returns a list of elements that occur more than once 
+in the given array in a sorted manner. 
+If no such element is found, return list containing [-1]. 
+
+Explanation :
+In this question we just have sorted the given array first, and created one HashSet numbers which doesn't take repeated values
+then runs a for loop from 0 to less than n-1;
+And then checking that arr[i] == arr[i+1] as the array has already been sorted so if the similar numbers repeats
+then it will be side by side only & that is why running for loop also till less than n-1 as we have to check for arr[i+1],
+when we reaches at position less than n-1 so, arr[i+1] will check for number at position n-1, as we start indexing from 0 till n-1 in any array.
+After that adding the number in the HashSet when arr[i] == arr[i+1] & closing the if statement & closing the for loop.
+
+And then again checking for one another if condition i.e. if(numbers.size() == 0), it means if the size of the HashSet which is created,
+After iterating the whole for loop is zero it means it doesn't have any repeated values, then add -1 to the HashSet inorder to return it later,
+if no repeated values found. 
+In the end created a ArrayList name duplicate in which we have passed the HashSet variable i.e. number and return the duplicate after sorting it in the end.

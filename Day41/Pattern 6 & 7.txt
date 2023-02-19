@@ -1,0 +1,26 @@
+In this questions you have to write code for the following two programs
+
+Sample Input :
+N = 5 (For 1st example)  N = 6 (For 2nd example)
+
+Sample Output :
+1) * * * * *          2) **
+   * * * *               * *
+   * * *                 ***
+   * *                   * *
+   *                     * *
+   *                     * *
+   * *
+   * * *
+   * * * * 
+   * * * * *
+   
+Explanation :
+For the first program runs a for loop from 1 to less than equal to row, where row was 2*n;
+And runs another for loop before that checked a if condition i.e. if(i <= n), it will print a for loop from j = i to j <= n;
+And when this if condition gets false another for loop k = n; k < i; this loop will work till the first for loop i.e. i <= row; condition gets false.
+And will print the following stars.
+Afterthat for line change System.out.println() & here the programs being executed.
+
+For another program first printed the two stars, after that runs a for loop from 2 to less than equal to n as we already have printed stars for the first line.
+And then checks a if condition that if(i == n/2) print the stars without space otherwise print it with space & then line change.

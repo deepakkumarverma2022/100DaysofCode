@@ -1,0 +1,17 @@
+WAP to print the given pattern.
+
+Sample Input:
+N = 5
+
+Sample output:
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+
+Explanation :
+In this program you just have to follow one pattern i.e. (11)^i, that you will iterate using for loop from i = 0 to i < n;
+Using Math.pow() function it will give output in floating point so for converting it into Integer type, you'll have to explicitly
+Convert it using (int)Math.pow(11,i); & store it in any variable let say var & then print it usingSystem.out.println(var);
+And it's done.

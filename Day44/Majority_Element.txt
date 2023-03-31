@@ -1,0 +1,26 @@
+In this program given an array A of N elements. Find the majority element in the array. 
+A majority element in an array A of size N is an element that appears more than N/2 times in the array.
+
+Sample Input 1:
+N = 5 
+A[] = {3,1,3,3,2} 
+
+Sample Output:
+3
+
+Sample Input 2:
+N = 3 
+A[] = {1,2,3} 
+
+Sample Output:
+-1
+
+Explanation :
+Initializing count & res variable with 0, & iterating from i = 0 to i less than size; & checks if (count == 0), res = a[i] & when count != 0 checks res == a[i] when
+iterating throughout the loop, if it is then count++, if not count--, like this we will check the more number of occurence of the element in an array, whenever the 
+two element at index i & i+1 matches we simply increase the count value by 1 & when it doesn't matches we decrease it by 1.
+So, the value of count will be more than 0 at the end for some element in an array after closing the for loop, we again initialize the value of count by 0 & runs a 
+for loop from (i = 0 to i < size;) & increase the value of count again for the number of times that element present in the res variable is present in the array.
+And then after iterating throughout the loop again checks for if condition i.e. if(count > size/2) i.e. half of the length of array as element in an array which occurs
+more than the half of the length of an array is called the majority element of the array. so, after checking this condition if the condition is true return res else 
+return -1 for the majority element not present in an array. 

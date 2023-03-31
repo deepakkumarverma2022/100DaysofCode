@@ -1,0 +1,22 @@
+In this program given an array A of positive integers. 
+Your task is to find the leaders in the array. An element of array is leader if it is greater than or equal to all the elements to its right side.
+The rightmost element is always a leader. 
+
+Sample Input 1:
+n = 6
+A[] = {16,17,4,3,5,2}
+
+Sample Output:
+17 5 2
+
+Sample Input:
+n = 5
+A[] = {1,2,3,4,0}
+Output: 4 0
+
+Explanation :
+To complete this leader function which is accepting two parameter one is array arr[] & second is size of the array which is n.
+After that created one ArrayList called number & then created one variable curr_elem inside which I have stored the last element of the array.
+Then runs a for loop from n-1 to 0 & checks whether (arr[i] > curr_elem) if it is then add them inside arrayList using add() function.
+and also reinitialize curr_elem = arr[i] for comparing for the next time like this iterate through the whole array & then using Collection.reverse() method,
+reverse the arrayList & then return it.

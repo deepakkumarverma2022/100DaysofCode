@@ -1,0 +1,29 @@
+In this program You are given a class Solution with a main method.
+Complete the given code so that it outputs the area of a parallelogram with breadth B and height H. You should read the variables from the standard input.
+
+Input Format :
+There are two lines of input. The first line contains B:the breadth of the parallelogram. 
+The next line contains H:the height of the parallelogram.
+
+Output Format
+If both values are greater than zero, then the main method must output the area of the parallelogram.
+Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
+
+Sample input 1 :
+1
+3
+Sample output 1 :
+3
+
+Sample input 2 :
+-1
+2
+Sample output 2 :
+java.lang.Exception: Breadth and height must be positive
+
+
+Explanation :
+First of all initialized a boolean variable flag & then taken a user input B for breadth & H for height using scanner class.
+Then inside a try block according to the question given checked if(B<=0 || H <= 0) then initialize flag with false;
+& throw a exception "breadth & height must be positive" else flag = true;
+And then in the main method checked if(flag) it means if flag is equal to true then multiply B*H & print the area.

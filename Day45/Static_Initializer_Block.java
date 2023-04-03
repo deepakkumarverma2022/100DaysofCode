@@ -6,7 +6,8 @@ There are two lines of input. The first line contains B:the breadth of the paral
 The next line contains H:the height of the parallelogram.
 
 Output Format
-If both values are greater than zero, then the main method must output the area of the parallelogram. Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
+If both values are greater than zero, then the main method must output the area of the parallelogram.
+Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
 
 Sample input 1 :
 1

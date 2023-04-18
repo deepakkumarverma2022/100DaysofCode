@@ -1,0 +1,35 @@
+In this question we are assembling given number in a circular manner & need to find the last kth number left after killing every 
+kth integer which has been assembled in circular form.
+
+Sample Input 1:
+
+N = 8, k = 3 
+     1
+8        2
+7           3
+ 6       4
+     5   
+     
+Sample Output 1:
+7
+
+
+
+Sample Input 2:
+
+N = 9, k = 4
+       1
+ 10           2
+                 3
+6                     
+                 9
+   8          4
+        5     
+           
+Sample Output 2:
+1
+
+Explanation :
+In this program we have to find the last kth number left i.e. taking N is equal to the number of element in a circular path.
+Then we are taking K value i.e. around which we have to kill the element, in the second input like we will start killing every 4th element present in the group.
+And after killing we will not consider it for the second time, like this the number left until last will be the final output.

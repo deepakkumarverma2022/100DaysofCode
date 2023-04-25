@@ -1,0 +1,30 @@
+In this question we have simply solved three questions using recursion inside same MainClass.
+(i) Find the sum of n natural number
+(ii) Calculate power using recursion a^b in O(log n) time complexity
+(iii) Find all the paths in a (n x m) grid
+
+Sample Input 1:
+N = 5
+
+Sample Output 1:
+1+2+3+4+5 = 15
+
+Sample Input 2:
+a = 3, b = 6
+
+Sample output 2:
+729
+
+Sample Input 3:
+n = 4, m = 4
+
+Sample Output 3:
+20
+
+
+Explanation :
+Just created a main class inside that created three function sum(), fastpow() & path(), inside sum function first checked for if (n == 1) 
+which has been passed inside the sum() function as parameter then if (n==1) it will return sum = 1;
+and rather than 1 any other natural number will be there then it will be sum using that function call
+and similarly with other two function in which we passed the parameter int a, int b for fastpow() function & int n, int m for path() function to find the all possible
+path in the grid.
